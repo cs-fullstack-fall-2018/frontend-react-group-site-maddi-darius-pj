@@ -5,24 +5,46 @@ class FaceBookRightPage extends Component {
     render() {
         return (
             <div id="rightbod">
-                <div className="signup bolder"></div>
-                <div className="free bolder"></div>
+                <div className="signup bolder">
+                    <h3>Sign Up</h3>
+                </div>
+                <div className="free bolder">
+                    <p>It's free and always will be</p>
+                </div>
 
                 <div className="formbox">
+                    <input type="text" id="firstname" placeholder="First name"/>
+                    <input type="text" id="lastname" placeholder="Last name"/>
+                </div>
+                <div>
+                    <br/>
                 </div>
                 <div className="formbox">
+                    <input type="text" placeholder="Email or mobile number"/>
+                </div>
+                <div>
+                    <br/>
                 </div>
                 <div className="formbox">
+                    <input type="text" placeholder="Re-enter Email or mobile number"/>
+                </div>
+                <div>
+                    <br/>
                 </div>
                 <div className="formbox">
+                    <input type="text" id="newPassword" placeholder="New Password"/>
                 </div>
                 <div className="formbox">
-                    <div className="bday"></div>
+                    <div className="bday">
+                        <p>Birthday</p>
+                    </div>
                 </div>
+
                 <div className="formbox">
+
                                 <span data-type="selectors">
                                     <select title="Month" className="selectbody">
-                                        <option value="0" selected="1"></option><option
+                                        <option value="0" selected="1">Month</option><option
                                         value="1">Jan</option><option value="2">Feb</option><option
                                         value="3">Mar</option><option
                                         value="4">Apr</option><option value="5">May</option><option
@@ -31,8 +53,9 @@ class FaceBookRightPage extends Component {
                                         value="9">Sep</option><option
                                         value="10">Oct</option><option value="11">Nov</option><option
                                         value="12">Dec</option></select>
+
                                     <select title="Day" className="selectbody fl">
-                                        <option value="0" selected="1"></option><option
+                                        <option value="0" selected="1">Day</option><option
                                         value="1">1</option><option value="2">2</option><option value="3">3</option><option
                                         value="4">4</option><option value="5">5</option><option value="6">6</option><option
                                         value="7">7</option><option value="8">8</option><option value="9">9</option><option
@@ -52,7 +75,7 @@ class FaceBookRightPage extends Component {
                                         value="30">30</option><option
                                         value="31">31</option></select>
                                     <select title="Year" className="selectbody fl">
-                                        <option value="0" selected="1"></option><option
+                                        <option value="0" selected="1">Year</option><option
                                         value="2015">2015</option><option value="2014">2014</option><option
                                         value="2013">2013</option><option
                                         value="2012">2012</option><option value="2011">2011</option><option
@@ -128,28 +151,34 @@ class FaceBookRightPage extends Component {
                                         value="1907">1907</option><option value="1906">1906</option><option
                                         value="1905">1905</option>
                                     </select>
+                                    <a href="">Why do I need to provide my birthday?</a>
                                 </span>
                     <div className="fb1 why h"></div>
                 </div>
                 <div className="formbox mt1">
                                 <span data-type="radio" className="spanpad">
-                                <label htmlFor="fem" className="gender"></label>
-                                <label htmlFor="male" className="gender"></label>
+                                     <input type="radio"/>
+                                <label htmlFor="fem" className="gender">Female</label>
+                                     <input type="radio"/>
+                                <label htmlFor="male" className="gender">Male</label>
                               </span>
                 </div>
                 <div className="formbox">
                     <div className="agree">
-                        <div className="link"></div>
-                        <div className="link"></div>
-                        <div className="link"></div>.
+                        <p>By clicking sign up, you agree to our
+                        <div className="link"> Terms</div> and that you have read our
+                        <div className="link"> Data Use Policy</div>, including our
+                        <div className="link"> Cookie Use</div>.
+                        </p>
                     </div>
                 </div>
                 <div className="formbox">
-                    <button type="submit" className="signbut bolder"></button>
+                    <button type="submit" className="signbut bolder">Sign Up</button>
                 </div>
                 <div className="formbox">
                     <div className="create">
-                        <div className="link h"></div>
+                        <p><div className="link h">Create a page
+                        </div>for a celebrity, brand, or business.</p>
                     </div>
                 </div>
             </div>
