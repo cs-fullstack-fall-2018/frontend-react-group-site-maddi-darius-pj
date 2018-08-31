@@ -13,12 +13,10 @@ class FaceBookTop extends Component {
                         </tr>
                         <tr>
                             <td>
-                                <input type="email" className="inputtext" id="email" tabIndex="1"
-                                       data-testid="royal_email"/>
+                                <input type="email" className="inputtext" id="email"/>
                             </td>
                             <td>
-                                <input type="password" className="inputtext" id="pass" tabIndex="2"
-                                       data-testid="royal_pass"/>
+                                <input type="password" className="inputtext" id="pass"/>
                             </td>
                             <td>
                                 <div id="button">Log In</div>
